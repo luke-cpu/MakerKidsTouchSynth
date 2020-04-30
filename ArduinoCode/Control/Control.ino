@@ -1,13 +1,3 @@
-//===Maker Kids 3.26.20 - SD card breakout .wav files working with Capactive touch inputs===//
-
-//This iteration currently has a .wav file play from the SD Card directly upon startup.
-//The capacitive touch sensor works alongside the sd card reader, but it has proven difficult 
-//  to get an outputted .wav file to play upon a specific capacitive touch being inputted.
-//It seems that the .wav file will loop with the clock cycle when a touch is pressed because
-//  it is extremely fast.
-//Maybe there is a way to toggle a variable when an input has been touched?
-
-
 
 //***SD CARD INITIALIZATIONS***//
 #include "SD.h"
